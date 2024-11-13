@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -63,17 +65,25 @@ body {
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
   body {
     @apply bg-background text-foreground;
   }
-  p {
-    @apply text-[15px] text-gray-800;
+  p,
+  li {
+    @apply text-[16px] text-text_color_alt;
   }
-
   h2 {
-    @apply text-[30px] text-black max-[900px]:text-[25px] max-[500px]:text-[20px];
+    @apply text-[35px] font-extrabold text-text_color max-[900px]:text-[30px] max-[500px]:text-[25px];
   }
+}
+
+@layer utilities {
+  .container {
+    @apply w-[85%] mx-auto max-[900px]:w-[95%];
+  }
+}
+
+* {
+  border-color: hsl(var(--border));
+  font-family: "DM Sans", sans-serif;
 }
