@@ -56,7 +56,10 @@ const Footer = () => {
         {/* copywrite */}
         <div className="container flex flex-col gap-4 mt-[60px] ">
           <h5 className="text-white text-[15px]">
-            Copyright Handy UI 2020, Built on Webflow by Lumen
+            Copyright Buildex 2020, Built by{" "}
+            <Link href={""} className="font-bold cursor-pointer underline01">
+              Progrix
+            </Link>
           </h5>
 
           <div className="flex gap-[20px] ">

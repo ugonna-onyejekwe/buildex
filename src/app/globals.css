@@ -87,3 +87,14 @@ body {
   border-color: hsl(var(--border));
   font-family: "DM Sans", sans-serif;
 }
+
+html {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}

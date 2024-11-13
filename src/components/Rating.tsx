@@ -38,7 +38,7 @@ const Rating = () => {
     <section className="bg-[#10395f] mt-[100px] max-[900px]:mt-[50px]">
       <div className="container py-[100px] flex gap-[80px] items-center max-[900px]:flex-col-reverse max-[900px]:items-start">
         <div
-          className="w-full max-w-[300px] bg-white rounded-md p-[30px]"
+          className="w-full max-w-[300px] bg-white rounded-md p-[30px] max-[500px]:max-w-full"
           data-aos="fade-up"
           data-aos-delay="100"
         >

@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 const SubsribeToNewsLetter = () => {
   return (
     <div className="bg-background_alt">
-      <div className="container flex justify-between py-[50px]">
+      <div className="container flex justify-between py-[50px] gap-[20px] max-[900px]:flex-col ">
         <div>
           <h3 className="text-text_color font-bold text-[20px]">
             Subscribe to our list for weekly discounts
