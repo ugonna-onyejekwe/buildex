@@ -37,7 +37,11 @@ const Rating = () => {
   return (
     <section className="bg-[#10395f] mt-[100px] max-[900px]:mt-[50px]">
       <div className="container py-[100px] flex gap-[80px] items-center max-[900px]:flex-col-reverse max-[900px]:items-start">
-        <div className="w-full max-w-[300px] bg-white rounded-md p-[30px]">
+        <div
+          className="w-full max-w-[300px] bg-white rounded-md p-[30px]"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           <h3 className="font-bold text-[18px]">Open Times</h3>
 
           <div className="mt-[20px] flex flex-col gap-[15px]">
@@ -60,7 +64,11 @@ const Rating = () => {
         </div>
 
         <div>
-          <div className="flex items-center gap-2">
+          <div
+            className="flex items-center gap-2"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             {[...new Array(5)].map((_, key) => {
               return (
                 <span key={key} className="text-[#f1c88a] text-[20px]">
@@ -70,18 +78,34 @@ const Rating = () => {
             })}
           </div>
 
-          <h2 className="mt-[20px] text-white">
+          <h2
+            className="mt-[20px] text-white"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
             I needed an emergency repair and Handy sorted it in less than 3
             hours and service was great
           </h2>
 
-          <p className="py-[25px] text-gray-300">
+          <p
+            className="py-[25px] text-gray-300"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
             Curabitur molestie leo in sagittis tempus. Curabitur facilisis
             blandit sem. Vestibulum vulputate ornare diam.
           </p>
 
-          <h3 className="font-semibold text-white">Ugonna Onyejekwe</h3>
-          <p className="text-gray-300">Entrepreneur</p>
+          <h3
+            className="font-semibold text-white"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            Ugonna Onyejekwe
+          </h3>
+          <p className="text-gray-300" data-aos="fade-up" data-aos-delay="600">
+            Entrepreneur
+          </p>
         </div>
       </div>
     </section>

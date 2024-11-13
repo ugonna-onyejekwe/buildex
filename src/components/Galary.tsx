@@ -35,6 +35,8 @@ export const Galary = () => {
             <div
               key={key}
               className="h-[300px] max-[500px]:h-[170px] rounded-sm overflow-hidden"
+              data-aos="zoom-in-up"
+              data-aos-delay="100"
             >
               <GalaryImage path={i.path} placeHolder={i.placeholder} />
             </div>

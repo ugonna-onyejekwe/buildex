@@ -13,11 +13,19 @@ export const AboutUs = () => {
           height={1000}
           width={1000}
           className="flex-1 h-[400px] max-[500px]:h-[300px]"
+          data-aos="fade-up-right"
         />
 
-        <div>
-          <h2>Our Commitment to Quality</h2>
-          <p className="py-[20px]">
+        <div data-aos="fade-up-left" data-aos-delay="100">
+          <h2 data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
+            Our Commitment to Quality
+          </h2>
+          <p
+            className="py-[20px]"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-offset="0"
+          >
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id,
             ducimus omnis veniam nostrum aspernatur labore accusantium at
             eveniet. Hic accusantium est accusamus, iure molestiae assumenda
@@ -27,7 +35,12 @@ export const AboutUs = () => {
           <div className="flex mt-[10px] gap-[20px] flex-wrap">
             {aboutInfo.map((i, key) => {
               return (
-                <div key={key}>
+                <div
+                  key={key}
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                  data-aos-offset="0"
+                >
                   <h3 className="font-bold text-[18px]">{i.amount}</h3>
                   <p>{i.name}</p>
                 </div>
@@ -45,11 +58,19 @@ export const AboutUs = () => {
           height={1000}
           width={1000}
           className="flex-1 h-[400px] max-[500px]:h-[300px]"
+          data-aos="fade-up-left"
         />
 
-        <div>
-          <h2>Your Partner in Building Excellence</h2>
-          <p className="py-[20px]">
+        <div data-aos="fade-up-right">
+          <h2 data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
+            Your Partner in Building Excellence
+          </h2>
+          <p
+            className="py-[20px]"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-offset="0"
+          >
             consectetur adipisicing elit. Id, ducimus omnis veniam nostrum
             aspernatur labore accusantium at eveniet. Hic accusantium est
             accusamus, iure molestiae assumenda molestias dolores cum placeat
@@ -57,7 +78,12 @@ export const AboutUs = () => {
           </p>
 
           <ul className="space-y-3">
-            <li className="flex items-center gap-[10px]">
+            <li
+              className="flex items-center gap-[10px]"
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-offset="0"
+            >
               <span className="h-[40px] w-[40px] min-h-[40px] min-w-[40px] rounded-full bg-background_alt border-primary_color/5 border-2 flex items-center justify-center text-[18px] text-primary_color/90">
                 <IoMdCheckmark />
               </span>
@@ -65,7 +91,12 @@ export const AboutUs = () => {
             </li>
 
             {/*  */}
-            <li className="flex items-center gap-[10px]">
+            <li
+              className="flex items-center gap-[10px]"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-offset="0"
+            >
               <span className="h-[40px] w-[40px] min-h-[40px] min-w-[40px] rounded-full bg-background_alt border-primary_color/5 border-2 flex items-center justify-center text-[18px] text-primary_color/90">
                 <IoMdCheckmark />
               </span>
