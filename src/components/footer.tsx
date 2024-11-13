@@ -57,7 +57,11 @@ const Footer = () => {
         <div className="container flex flex-col gap-4 mt-[60px] ">
           <h5 className="text-white text-[15px]">
             Copyright Buildex 2020, Built by{" "}
-            <Link href={""} className="font-bold cursor-pointer underline01">
+            <Link
+              href={"https://www.instagram.com/official.progrix"}
+              target="_blank"
+              className="font-bold cursor-pointer underline01"
+            >
               Progrix
             </Link>
           </h5>
